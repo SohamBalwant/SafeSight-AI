@@ -1,4 +1,3 @@
-from tokenize import String
 from fastapi import FastAPI, Depends, Path, HTTPException, Response
 from starlette.responses import StreamingResponse
 from pydantic import BaseModel
@@ -8,17 +7,9 @@ from JWTManager import create_access_token, decode_token
 from datetime import datetime, timedelta
 from models import User, Base, Alerts, Images, Reports
 from sqlalchemy import insert, select
-import threading
 import camera as cam
-import axios
 from fastapi.middleware.cors import CORSMiddleware
-import tkinter.messagebox as msgbox
 import asyncio
-
-
-thread = threading.Thread(target=cam.cameraTask)
-thread.daemon = True
-thread.start()
 
 app = FastAPI()
 
