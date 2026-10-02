@@ -21,15 +21,6 @@ This system helps automate and improve safety in high-risk environments such as 
 
 ---
 
-## 👨‍💻 Team MEERKAT
-
-| Name           | Role              | Responsibilities                          |
-|----------------|-------------------|--------------------------------------------|
-| **Aliboev Abbos** | Team Leader, AI & Frontend | Project coordination, frontend logic and Development, YOLO |
-| **김태영**         | AI & Backend       | YOLO model training, backend integration    |
-| **전설민**         | Backend & DB       | FastAPI APIs, database design & logic       |
-
----
 
 ## 💡 Why This Project?
 
@@ -115,7 +106,5 @@ LocalStorage, Axios             MySQL Database
 
 ## 📁 Repository
 🔗 GitHub: [Web_Software_Project](https://github.com/abbosaliboev/Web_Software_Project.git)
-
-Built with ❤ by **Team MEERKAT** for **Chungbuk National University’s Web Software course**.
 
 For feedback or contributions, feel free to fork or reach out!
